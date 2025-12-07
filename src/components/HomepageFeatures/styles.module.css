@@ -1,0 +1,50 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
+
+.featuresSection {
+  padding: 4rem 0;
+  background-color: #f0f4f8;
+}
+
+.featureItem {
+  margin-bottom: 2.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+  padding: 1rem;
+  background: white;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.05);
+}
+
+.featureItem:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.1);
+}
+
+.iconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 90px;
+  margin: 0 auto 1rem auto;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.iconWrapper:hover {
+  transform: scale(1.25);
+}
+
+.featureSvg {
+  width: 45px;
+  height: 45px;
+}
